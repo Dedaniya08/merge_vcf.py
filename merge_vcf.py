@@ -12,7 +12,7 @@ import numpy as np
 def merging_all_the_common_variant(
     info_tag, format_tag, common_dict_1, common_dict_2, file_name_1, file_name_2
 ):
-    """merging the common variant dict"""
+    """merging the common variant in dict"""
 
     def changing_tag_in_dict(info_tag, format_tag, dict_file):
         """changing the common tag in the dict file provided, using the tag"""
